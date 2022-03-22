@@ -1,0 +1,36 @@
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #aa4139;
+}
+
+.subContainer {
+    width: auto;
+    margin: 1rem;
+}
+
+.imgContainer {
+    background-image: url("https://cdn.pixabay.com/photo/2011/12/15/09/50/lagoon-nebula-11143_960_720.jpg");
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+}
